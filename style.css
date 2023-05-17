@@ -64,3 +64,17 @@ section{
     flex-wrap: wrap;
     gap: 10px;
 }
+@media screen and (max-width:678px){
+    .items{
+        display:flex;
+        flex-direction:column;
+        width: 100%;
+        min-height:100%;
+        gap:5px;
+        
+    }
+    .item{
+        width:90%;
+        
+    }
+    }
